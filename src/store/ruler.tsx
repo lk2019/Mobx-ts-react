@@ -1,5 +1,5 @@
 import {observable,action} from 'mobx';
-import {Iruler} from '../model/Iruler'
+import {Iruler} from '../model'
 
 export default class Ruler implements Iruler{
     @observable public width:number[] = [100,100,100];

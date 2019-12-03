@@ -2,7 +2,7 @@ import {observer,inject} from 'mobx-react';
 import * as React from 'react';
 import "src/style/AppRuler.css"
 import { observable, action } from 'mobx';
-import { Iruler } from '../../model/Iruler'
+import { Iruler } from '../../model'
 
 interface RulerIndex{
     margin?:number
